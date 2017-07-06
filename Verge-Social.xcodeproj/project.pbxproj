@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B88362F1F0E8DF5006DE6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88362E1F0E8DF5006DE6EF /* AppDelegate.swift */; };
+		4B8836311F0E8DF5006DE6EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8836301F0E8DF5006DE6EF /* ViewController.swift */; };
+		4B8836341F0E8DF5006DE6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8836321F0E8DF5006DE6EF /* Main.storyboard */; };
+		4B8836361F0E8DF5006DE6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8836351F0E8DF5006DE6EF /* Assets.xcassets */; };
+		4B8836391F0E8DF5006DE6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8836371F0E8DF5006DE6EF /* LaunchScreen.storyboard */; };
+		4B8836441F0E8DF5006DE6EF /* Verge_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8836431F0E8DF5006DE6EF /* Verge_SocialTests.swift */; };
+		4B88364F1F0E8DF5006DE6EF /* Verge_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B88364E1F0E8DF5006DE6EF /* Verge_SocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8836401F0E8DF5006DE6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8836231F0E8DF5006DE6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B88362A1F0E8DF5006DE6EF;
+			remoteInfo = "Verge-Social";
+		};
+		4B88364B1F0E8DF5006DE6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8836231F0E8DF5006DE6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B88362A1F0E8DF5006DE6EF;
+			remoteInfo = "Verge-Social";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B88362B1F0E8DF5006DE6EF /* Verge-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verge-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B88362E1F0E8DF5006DE6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8836301F0E8DF5006DE6EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8836331F0E8DF5006DE6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8836351F0E8DF5006DE6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8836381F0E8DF5006DE6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B88363A1F0E8DF5006DE6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B88363F1F0E8DF5006DE6EF /* Verge-SocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verge-SocialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8836431F0E8DF5006DE6EF /* Verge_SocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verge_SocialTests.swift; sourceTree = "<group>"; };
+		4B8836451F0E8DF5006DE6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B88364A1F0E8DF5006DE6EF /* Verge-SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verge-SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B88364E1F0E8DF5006DE6EF /* Verge_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verge_SocialUITests.swift; sourceTree = "<group>"; };
+		4B8836501F0E8DF5006DE6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8836281F0E8DF5006DE6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B88363C1F0E8DF5006DE6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8836471F0E8DF5006DE6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8836221F0E8DF5006DE6EF = {
+			isa = PBXGroup;
+			children = (
+				4B88362D1F0E8DF5006DE6EF /* Verge-Social */,
+				4B8836421F0E8DF5006DE6EF /* Verge-SocialTests */,
+				4B88364D1F0E8DF5006DE6EF /* Verge-SocialUITests */,
+				4B88362C1F0E8DF5006DE6EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B88362C1F0E8DF5006DE6EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B88362B1F0E8DF5006DE6EF /* Verge-Social.app */,
+				4B88363F1F0E8DF5006DE6EF /* Verge-SocialTests.xctest */,
+				4B88364A1F0E8DF5006DE6EF /* Verge-SocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B88362D1F0E8DF5006DE6EF /* Verge-Social */ = {
+			isa = PBXGroup;
+			children = (
+				4B88362E1F0E8DF5006DE6EF /* AppDelegate.swift */,
+				4B8836301F0E8DF5006DE6EF /* ViewController.swift */,
+				4B8836321F0E8DF5006DE6EF /* Main.storyboard */,
+				4B8836351F0E8DF5006DE6EF /* Assets.xcassets */,
+				4B8836371F0E8DF5006DE6EF /* LaunchScreen.storyboard */,
+				4B88363A1F0E8DF5006DE6EF /* Info.plist */,
+			);
+			path = "Verge-Social";
+			sourceTree = "<group>";
+		};
+		4B8836421F0E8DF5006DE6EF /* Verge-SocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8836431F0E8DF5006DE6EF /* Verge_SocialTests.swift */,
+				4B8836451F0E8DF5006DE6EF /* Info.plist */,
+			);
+			path = "Verge-SocialTests";
+			sourceTree = "<group>";
+		};
+		4B88364D1F0E8DF5006DE6EF /* Verge-SocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B88364E1F0E8DF5006DE6EF /* Verge_SocialUITests.swift */,
+				4B8836501F0E8DF5006DE6EF /* Info.plist */,
+			);
+			path = "Verge-SocialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B88362A1F0E8DF5006DE6EF /* Verge-Social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8836531F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-Social" */;
+			buildPhases = (
+				4B8836271F0E8DF5006DE6EF /* Sources */,
+				4B8836281F0E8DF5006DE6EF /* Frameworks */,
+				4B8836291F0E8DF5006DE6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Verge-Social";
+			productName = "Verge-Social";
+			productReference = 4B88362B1F0E8DF5006DE6EF /* Verge-Social.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B88363E1F0E8DF5006DE6EF /* Verge-SocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8836561F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-SocialTests" */;
+			buildPhases = (
+				4B88363B1F0E8DF5006DE6EF /* Sources */,
+				4B88363C1F0E8DF5006DE6EF /* Frameworks */,
+				4B88363D1F0E8DF5006DE6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8836411F0E8DF5006DE6EF /* PBXTargetDependency */,
+			);
+			name = "Verge-SocialTests";
+			productName = "Verge-SocialTests";
+			productReference = 4B88363F1F0E8DF5006DE6EF /* Verge-SocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8836491F0E8DF5006DE6EF /* Verge-SocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8836591F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-SocialUITests" */;
+			buildPhases = (
+				4B8836461F0E8DF5006DE6EF /* Sources */,
+				4B8836471F0E8DF5006DE6EF /* Frameworks */,
+				4B8836481F0E8DF5006DE6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B88364C1F0E8DF5006DE6EF /* PBXTargetDependency */,
+			);
+			name = "Verge-SocialUITests";
+			productName = "Verge-SocialUITests";
+			productReference = 4B88364A1F0E8DF5006DE6EF /* Verge-SocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8836231F0E8DF5006DE6EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hemanshu Bhojwani";
+				TargetAttributes = {
+					4B88362A1F0E8DF5006DE6EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P7A6STVL96;
+						ProvisioningStyle = Automatic;
+					};
+					4B88363E1F0E8DF5006DE6EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P7A6STVL96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B88362A1F0E8DF5006DE6EF;
+					};
+					4B8836491F0E8DF5006DE6EF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P7A6STVL96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B88362A1F0E8DF5006DE6EF;
+					};
+				};
+			};
+			buildConfigurationList = 4B8836261F0E8DF5006DE6EF /* Build configuration list for PBXProject "Verge-Social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8836221F0E8DF5006DE6EF;
+			productRefGroup = 4B88362C1F0E8DF5006DE6EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B88362A1F0E8DF5006DE6EF /* Verge-Social */,
+				4B88363E1F0E8DF5006DE6EF /* Verge-SocialTests */,
+				4B8836491F0E8DF5006DE6EF /* Verge-SocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8836291F0E8DF5006DE6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8836391F0E8DF5006DE6EF /* LaunchScreen.storyboard in Resources */,
+				4B8836361F0E8DF5006DE6EF /* Assets.xcassets in Resources */,
+				4B8836341F0E8DF5006DE6EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B88363D1F0E8DF5006DE6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8836481F0E8DF5006DE6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8836271F0E8DF5006DE6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8836311F0E8DF5006DE6EF /* ViewController.swift in Sources */,
+				4B88362F1F0E8DF5006DE6EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B88363B1F0E8DF5006DE6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8836441F0E8DF5006DE6EF /* Verge_SocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8836461F0E8DF5006DE6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B88364F1F0E8DF5006DE6EF /* Verge_SocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8836411F0E8DF5006DE6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B88362A1F0E8DF5006DE6EF /* Verge-Social */;
+			targetProxy = 4B8836401F0E8DF5006DE6EF /* PBXContainerItemProxy */;
+		};
+		4B88364C1F0E8DF5006DE6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B88362A1F0E8DF5006DE6EF /* Verge-Social */;
+			targetProxy = 4B88364B1F0E8DF5006DE6EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8836321F0E8DF5006DE6EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8836331F0E8DF5006DE6EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8836371F0E8DF5006DE6EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8836381F0E8DF5006DE6EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8836511F0E8DF5006DE6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8836521F0E8DF5006DE6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8836541F0E8DF5006DE6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B8836551F0E8DF5006DE6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-Social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-Social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B8836571F0E8DF5006DE6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verge-Social.app/Verge-Social";
+			};
+			name = Debug;
+		};
+		4B8836581F0E8DF5006DE6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-SocialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-SocialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verge-Social.app/Verge-Social";
+			};
+			name = Release;
+		};
+		4B88365A1F0E8DF5006DE6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Verge-Social";
+			};
+			name = Debug;
+		};
+		4B88365B1F0E8DF5006DE6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P7A6STVL96;
+				INFOPLIST_FILE = "Verge-SocialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hemanshu.Verge-SocialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Verge-Social";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8836261F0E8DF5006DE6EF /* Build configuration list for PBXProject "Verge-Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8836511F0E8DF5006DE6EF /* Debug */,
+				4B8836521F0E8DF5006DE6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8836531F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-Social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8836541F0E8DF5006DE6EF /* Debug */,
+				4B8836551F0E8DF5006DE6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8836561F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-SocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8836571F0E8DF5006DE6EF /* Debug */,
+				4B8836581F0E8DF5006DE6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8836591F0E8DF5006DE6EF /* Build configuration list for PBXNativeTarget "Verge-SocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B88365A1F0E8DF5006DE6EF /* Debug */,
+				4B88365B1F0E8DF5006DE6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8836231F0E8DF5006DE6EF /* Project object */;
+}
